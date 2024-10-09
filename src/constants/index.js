@@ -6,6 +6,20 @@ import {
   twitter,
 } from "../assets";
 
+import card1 from "../assets/products/card-1.svg";
+import card2 from "../assets/products/card-2.svg";
+import card3 from "../assets/products/card-3.svg";
+import card4 from "../assets/products/card-4.svg";
+import card5 from "../assets/products/card-5.svg";
+import card6 from "../assets/products/card-6.svg";
+
+import product1 from "../assets/products/product-1.png";
+import product2 from "../assets/products/product-2.png";
+import product3 from "../assets/products/product-3.png";
+import product4 from "../assets/products/product-4.png";
+import product5 from "../assets/products/product-5.png";
+import product6 from "../assets/products/product-6.png";
+
 export const navigation = [
   {
     id: "0",
@@ -44,133 +58,107 @@ export const products = [
     id: "0",
     title: "Patient Monitor",
     text: "We offer patient monitors for various needs. Our multi-function model provides comprehensive vital signs analysis.",
-    backgroundUrl: "./src/assets/products/card-1.svg",
-    productImage: "./src/assets/products/product-1.png"
+    backgroundUrl: card1,
+    productImage: product1
+
   },
   {
     id: "1",
     title: "High-Defination Wireless Ultrasound",
     text: "Clarius HD3 is a 30% smaller, lighter third-gen portable ultrasound with AI-powered, cloud app.",
-    backgroundUrl: "./src/assets/products/card-2.svg",
-    productImage: "./src/assets/products/product-2.png"
+    backgroundUrl: card2,
+    productImage: product2
   },
   {
     id: "2",
     title: "Body Composition BC",
     text: "The New Standard in Body Composition Analysis.",
-    backgroundUrl: "./src/assets/products/card-3.svg",
-    productImage: "./src/assets/products/product-3.png"
-  
+    backgroundUrl: card3,
+    productImage: product3
   },
   {
     id: "3",
     title: "Electrosurgical ZERO50",
     text: "50W RF electrosurgical unit for monopolar mode.",
-    backgroundUrl: "./src/assets/products/card-4.svg",
-    productImage: "./src/assets/products/product-4.png"
+    backgroundUrl: card4,
+    productImage: product4
   },
   {
     id: "4",
     title: "NAVI-60 Vein Illuminator",
     text: "NAVI-60 Vein Illuminator offers real-time vas deferens imaging, improving patient safety and reducing healthcare costs.",
-    backgroundUrl: "./src/assets/products/card-5.svg",
-    productImage: "./src/assets/products/product-5.png"
+    backgroundUrl: card5,
+    productImage: product5
   },
   {
     id: "5",
     title: "AV-Heart Care",
     text: "Cardiac arrest is sudden heart failure; defibrilator or CPR improves survival until help arrives.",
-    backgroundUrl: "./src/assets/products/card-6.svg",
-    productImage: "./src/assets/products/product-6.png"
+    backgroundUrl: card6,
+    productImage: product6
   },
 ];
  
+
 export const allProducts = [
+  ...products,
   {
-    id: "0",
+    id: "6",
     title: "Patient Monitor",
     text: "We offer patient monitors for various needs. Our multi-function model provides comprehensive vital signs analysis.",
-    backgroundUrl: "./src/assets/products/card-1.svg",
-    productImage: "./src/assets/products/product-1.png"
-  },
-  {
-    id: "1",
-    title: "High-Defination Wireless Ultrasound",
-    text: "Clarius HD3 is a 30% smaller, lighter third-gen portable ultrasound with AI-powered, cloud app.",
-    backgroundUrl: "./src/assets/products/card-2.svg",
-    productImage: "./src/assets/products/product-2.png"
-  },
-  {
-    id: "2",
-    title: "Body Composition BC",
-    text: "The New Standard in Body Composition Analysis.",
-    backgroundUrl: "./src/assets/products/card-3.svg",
-    productImage: "./src/assets/products/product-3.png"
-  
-  },
-  {
-    id: "3",
-    title: "Electrosurgical ZERO50",
-    text: "50W RF electrosurgical unit for monopolar mode.",
-    backgroundUrl: "./src/assets/products/card-4.svg",
-    productImage: "./src/assets/products/product-4.png"
-  },
-  {
-    id: "4",
-    title: "NAVI-60 Vein Illuminator",
-    text: "NAVI-60 Vein Illuminator offers real-time vas deferens imaging, improving patient safety and reducing healthcare costs.",
-    backgroundUrl: "./src/assets/products/card-5.svg",
-    productImage: "./src/assets/products/product-5.png"
-  },
-  {
-    id: "5",
-    title: "AV-Heart Care",
-    text: "Cardiac arrest is sudden heart failure; defibrilator or CPR improves survival until help arrives.",
-    backgroundUrl: "./src/assets/products/card-6.svg",
-    productImage: "./src/assets/products/product-6.png"
-  },
-  {
-  id: "6",
-    title: "Patient Monitor",
-    text: "We offer patient monitors for various needs. Our multi-function model provides comprehensive vital signs analysis.",
-    backgroundUrl: "./src/assets/products/card-1.svg",
-    productImage: "./src/assets/products/product-1.png"
+    backgroundUrl: card1,
+    productImage: product1
   },
   {
     id: "7",
     title: "High-Defination Wireless Ultrasound",
     text: "Clarius HD3 is a 30% smaller, lighter third-gen portable ultrasound with AI-powered, cloud app.",
+
     backgroundUrl: "./src/assets/products/card-2.svg",
-    productImage: "./src/assets/products/product-2.png"
+    productImage: "./src/assets/products/product-2.png",
+    backgroundUrl: card2,
+    productImage: product2
   },
   {
     id: "8",
     title: "Body Composition BC",
     text: "The New Standard in Body Composition Analysis.",
+
     backgroundUrl: "./src/assets/products/card-3.svg",
     productImage: "./src/assets/products/product-3.png"
-  
+  ,
+    backgroundUrl: card3,
+    productImage: product3
   },
   {
     id: "9",
     title: "Electrosurgical ZERO50",
     text: "50W RF electrosurgical unit for monopolar mode.",
+
     backgroundUrl: "./src/assets/products/card-4.svg",
-    productImage: "./src/assets/products/product-4.png"
+    productImage: "./src/assets/products/product-4.png",
+    backgroundUrl: card4,
+    productImage: product4
   },
   {
     id: "10",
     title: "NAVI-60 Vein Illuminator",
     text: "NAVI-60 Vein Illuminator offers real-time vas deferens imaging, improving patient safety and reducing healthcare costs.",
+
     backgroundUrl: "./src/assets/products/card-5.svg",
-    productImage: "./src/assets/products/product-5.png"
+    productImage: "./src/assets/products/product-5.png",
+    backgroundUrl: card5,
+    productImage: product5
   },
   {
     id: "11",
     title: "AV-Heart Care",
     text: "Cardiac arrest is sudden heart failure; defibrilator or CPR improves survival until help arrives.",
+
     backgroundUrl: "./src/assets/products/card-6.svg",
-    productImage: "./src/assets/products/product-6.png"
+    productImage: "./src/assets/products/product-6.png",
+    backgroundUrl: card6,
+    productImage: product6
   },
 ];
 
