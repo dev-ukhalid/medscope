@@ -1,10 +1,11 @@
-import { allProducts, products } from "../constants";
+import { allProducts } from "../constants";
 import Heading from "../components/Heading";
 import Section from "../components/Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "../components/design/product";
 import ClipPath from "../assets/svg/ClipPath";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 const Products = () => {
   return (
     <Section id="features">
@@ -42,7 +43,9 @@ const Products = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </Section>
+    
   );
 };
 

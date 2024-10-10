@@ -33,7 +33,6 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
            We are not only the best Healthcare equipment provider but also the best in terms of Experience.
            <br />
-           {"  "}
            <br />Welcome to the world of MedScope, where advanced medical
               technology meets superior healthcare. At MedScope, we are
               committed to providing the latest solutions and services in the

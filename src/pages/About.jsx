@@ -3,6 +3,7 @@ import { curve } from "../assets";
 import Section from "../components/Section";
 import { BottomLine } from "../components/design/Hero";
 import { useRef } from "react";
+import Footer from "../components/Footer";
 
 const About = () => {
   const parallaxRef = useRef(null);
@@ -11,7 +12,7 @@ const About = () => {
     <div>
       <Header />
       <Section
-        className="pt-[10rem] -mt-[5.25rem]"
+        className="pt-[11rem] -mt-[5.25rem]"
         crosses
         crossesOffset="lg:translate-y-[5.25rem]"
         customPaddings
@@ -122,6 +123,7 @@ const About = () => {
 
         <BottomLine />
       </Section>
+      <Footer />
     </div>
   );
 };
