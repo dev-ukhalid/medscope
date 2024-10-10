@@ -19,12 +19,12 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import detailbg from "./details/image-1.png";
 
-import productCard1 from "./products/card-1.svg";
-import productCard2 from "./products/card-2.svg";
-import productCard3 from "./products/card-3.svg";
-import productCard4 from "./products/card-4.svg";
-import productCard5 from "./products/card-5.svg";
-import productCard6 from "./products/card-6.svg";
+import productCard1 from "/card-1.svg";
+import productCard2 from "/card-2.svg";
+import productCard3 from "/card-3.svg";
+import productCard4 from "/card-4.svg";
+import productCard5 from "/card-5.svg";
+import productCard6 from "/card-6.svg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";

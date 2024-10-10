@@ -5,12 +5,12 @@ import {
   telegram,
   twitter,
 } from "../assets";
-import card1 from "../assets/products/card-1.svg";
-import card2 from "../assets/products/card-2.svg";
-import card3 from "../assets/products/card-3.svg";
-import card4 from "../assets/products/card-4.svg";
-import card5 from "../assets/products/card-5.svg";
-import card6 from "../assets/products/card-6.svg";
+import card1 from "/card-1.svg";
+import card2 from "/card-2.svg";
+import card3 from "/card-3.svg";
+import card4 from "/card-4.svg";
+import card5 from "/card-5.svg";
+import card6 from "/card-6.svg";
 
 import product1 from "../assets/products/product-1.png";
 import product2 from "../assets/products/product-2.png";
