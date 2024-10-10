@@ -28,7 +28,7 @@ const Details = () => (
                 </div>
                 <div className="relative z-1">
                   <Tagline>Address</Tagline>
-                  <p className="font-mono m-2">NO. 14 Murtala Mohammed Way opposite kano Golf club.</p>
+                  <p className="font-mono m-2">NO. 14 Murtala Mohammed Way opposite kano Golf club, <br /> Kano State, Nigeria.</p>
                   <Tagline>Phone NO.</Tagline>
                   <p className="font-mono m-2">07000000000, 08000000000</p>
                   <Tagline>Email Address</Tagline>
