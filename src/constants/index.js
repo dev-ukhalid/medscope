@@ -63,7 +63,7 @@ export const products = [
     id: "0",
     title: "Patient Monitor",
     text: "We offer patient monitors for various needs. Our multi-function model provides comprehensive vital signs analysis.",
-    backgroundUrl: "../assets/products/card-1.svg",
+    backgroundUrl: card1,
     productImage: product1
 
   },
